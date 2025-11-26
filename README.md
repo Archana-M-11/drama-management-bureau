@@ -1,10 +1,10 @@
-🎭 Drama Management Bureau
+**🎭 Drama Management Bureau**
 A Gen-Z Malayalam AI Roast-Therapy Web App 🤖🔥
 
 Drama Management Bureau is a fun AI-powered Malayalam “roast-therapy” website that gives users savage humor + emotional support.
 Users enter their name, gender, and problem, and the app generates a long, Gen-Z style roast + motivation using Google Gemini AI.
 
-⭐ Features
+**⭐ Features**
 
 🔥 AI Roast Therapy (Malayalam + Gen-Z slang)
 
@@ -26,7 +26,7 @@ Frontend: HTML, CSS, Bootstrap, JavaScript
 Backend: Node.js, Express.js
 AI: Google Generative AI (Gemini Flash Model)
 
-🚀 How It Works
+**🚀 How It Works**
 
 User enters name + gender + problem
 
@@ -36,13 +36,13 @@ Node backend generates a roast using Gemini
 
 Response is shown with animation + copy button
 
-🌐 Deployment
+**🌐 Deployment**
 
 Frontend: GitHub Pages / Vercel
 
 Backend: Render.com / Railway.app (free)
 
-📌 Use Cases
+**📌 Use Cases**
 
 One-sided love
 
