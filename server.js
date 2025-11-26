@@ -188,6 +188,7 @@ If problem = "can't get over someone":
 × Same boring section names every time
 × Generic headers like "Section 1, Section 2"
 × Forget emojis and symbols
+× Use Tamil or Hindi  or any other langauge
 × Make it a wall of text
 × Use Tamil/Hindi or any other language - ONLY Malayalam + English!
 
