@@ -1,0 +1,23 @@
+# Node modules (very large, never push)
+node_modules/
+
+# Environment variables (API KEY MUST STAY HIDDEN)
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Cache folders
+.cache/
+dist/
+build/
+
+# Optional: VS Code settings (not needed for repo)
+.vscode/
