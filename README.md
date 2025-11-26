@@ -1,5 +1,5 @@
-#🎭 ** Drama Management Bureau
-A Gen-Z Malayalam AI Roast-Therapy Web App 🤖🔥**
+🎭 #Drama Management Bureau
+A Gen-Z Malayalam AI Roast-Therapy Web App 🤖🔥
 
 Drama Management Bureau is a fun AI-powered Malayalam “roast-therapy” website that gives users savage humor + emotional support.
 Users enter their name, gender, and problem, and the app generates a long, Gen-Z style roast + motivation using Google Gemini AI.
