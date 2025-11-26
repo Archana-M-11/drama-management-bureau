@@ -15,145 +15,51 @@
       font-family: "Noto Sans Malayalam", sans-serif;
       padding: 20px;
     }
-
-    .container-box {
-      max-width: 700px;
-      margin: auto;
-    }
-
-    /* HERO */
+    .container-box { max-width: 700px; margin: auto; }
     .hero-card {
-      background: #fff9f4;
-      border-radius: 26px;
-      padding: 30px;
-      text-align: center;
-      box-shadow: 0 8px 25px #00000010;
+      background: #fff9f4; border-radius: 26px; padding: 30px;
+      text-align: center; box-shadow: 0 8px 25px #00000010;
       margin-bottom: 30px;
     }
-
-    .hero-title {
-      font-size: 32px;
-      font-weight: 700;
-      color: #4d3a2e;
-      line-height: 1.4;
-    }
-
-    .hero-sub {
-      font-size: 15px;
-      margin-top: 10px;
-      color: #5e4f45;
-    }
-
-    /* INPUT BOX */
+    .hero-title { font-size: 32px; font-weight: 700; color: #4d3a2e; line-height: 1.4; }
+    .hero-sub { font-size: 15px; margin-top: 10px; color: #5e4f45; }
     .input-card {
-      background: #fff9f4;
-      padding: 26px;
-      border-radius: 22px;
+      background: #fff9f4; padding: 26px; border-radius: 22px;
       box-shadow: 0 6px 20px #00000012;
     }
-
-    .info-text {
-      font-size: 12px;
-      margin: -4px 0 8px 2px;
-      color: #8c7c6f;
-    }
-
+    .info-text { font-size: 12px; margin: -4px 0 8px 2px; color: #8c7c6f; }
     .form-control, .form-select {
-      border-radius: 14px;
-      padding: 12px;
-      border: 1.6px solid #d7c3b0;
-      background: #ffffff;
+      border-radius: 14px; padding: 12px; border: 1.6px solid #d7c3b0; background: #ffffff;
     }
-
-    /* BUTTON + LOADING BAR */
     .btn-custom {
-      background: #3a2f2f;
-      color: white;
-      border-radius: 16px;
-      padding: 12px;
-      margin-top: 12px;
-      width: 100%;
-      font-size: 17px;
-      font-weight: 600;
-      position: relative;
-      overflow: hidden;
-      transition: 0.3s ease;
+      background: #3a2f2f; color: white; border-radius: 16px;
+      padding: 12px; margin-top: 12px; width: 100%; font-size: 17px;
+      font-weight: 600; position: relative; overflow: hidden; transition: 0.3s ease;
     }
-
-    .btn-custom.loading {
-      color: transparent;
-    }
-
+    .btn-custom.loading { color: transparent; }
     .loading-bar {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      width: 80%;
-      height: 7px;
-      border-radius: 10px;
-      transform: translate(-50%, -50%);
-      background: rgba(255, 255, 255, 0.2);
-      overflow: hidden;
-      opacity: 0;
-      transition: 0.3s ease;
+      position: absolute; top: 50%; left: 50%; width: 80%; height: 7px;
+      border-radius: 10px; transform: translate(-50%, -50%);
+      background: rgba(255, 255, 255, 0.2); overflow: hidden; opacity: 0; transition: 0.3s ease;
     }
-
-    .loading-bar.active {
-      opacity: 1;
-    }
-
+    .loading-bar.active { opacity: 1; }
     .loading-fill {
-      width: 25%;
-      height: 100%;
-      background: #00ffd5;
-      border-radius: 10px;
+      width: 25%; height: 100%; background: #00ffd5; border-radius: 10px;
       animation: slide 1.2s infinite linear;
     }
-
-    @keyframes slide {
-      0% { transform: translateX(-120%); }
-      100% { transform: translateX(350%); }
-    }
-
-    /* OUTPUT BOX */
+    @keyframes slide { 0% { transform: translateX(-120%); } 100% { transform: translateX(350%); } }
     .out-box {
-      background: #fffbf7;
-      padding: 24px;
-      border-radius: 20px;
-      margin-top: 20px;
-      box-shadow: 0 6px 25px #00000018;
-      white-space: pre-wrap;
-      border-left: 5px solid #c7a88a;
-      display: none;
-      animation: fadeIn 0.9s ease;
+      background: #fffbf7; padding: 24px; border-radius: 20px; margin-top: 20px;
+      box-shadow: 0 6px 25px #00000018; white-space: pre-wrap;
+      border-left: 5px solid #c7a88a; display: none; animation: fadeIn 0.9s ease;
     }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(10px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    /* COPY BUTTON */
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
     .copy-btn {
-      background: #4d3a2e;
-      color: white;
-      border-radius: 12px;
-      padding: 8px 16px;
-      font-size: 13px;
-      float: right;
-      margin-top: -8px;
-      margin-bottom: 10px;
-      transition: 0.3s;
+      background: #4d3a2e; color: white; border-radius: 12px;
+      padding: 8px 16px; font-size: 13px; float: right; margin-top: -8px;
+      margin-bottom: 10px; transition: 0.3s;
     }
-
-    #copiedAlert {
-      display: none;
-      text-align: right;
-      color: #3c2f28;
-      font-size: 13px;
-      font-weight: 600;
-    }
-
+    #copiedAlert { display: none; text-align: right; color: #3c2f28; font-size: 13px; font-weight: 600; }
   </style>
 </head>
 
@@ -172,27 +78,20 @@
   <!-- INPUT CARD -->
   <div class="input-card">
 
-    <!-- NAME -->
     <label class="form-label">👤 പേരു parayeda… 😒</label>
-    <div class="info-text">Your real name or nickname — roast इसमें same ആയിരിക്കും 😭🔥</div>
     <input type="text" id="userName" class="form-control" placeholder="Your name">
 
-    <!-- GENDER -->
     <br>
     <label class="form-label">🌀 എങ്ങനെ വിളിക്കണം?</label>
-    <div class="info-text">Male → “eda”, Female → “edi” auto apply ചെയ്യും.</div>
     <select id="gender" class="form-select">
       <option value="female">Female (edi)</option>
       <option value="male">Male (eda)</option>
     </select>
 
-    <!-- PROBLEM -->
     <br>
     <label class="form-label">💭 എന്താ problem?</label>
-    <div class="info-text">heartbreak, overthinking, anxiety, fake friends — ഒന്നും വെറുതെ പോകില്ല 🔥😭</div>
     <textarea id="problem" class="form-control" rows="3" placeholder="Your problem..."></textarea>
 
-    <!-- BUTTON -->
     <button class="btn-custom" id="submitBtn" onclick="getCounselling()">
       🔥 Therapy Tharatte
       <div class="loading-bar" id="loader">
@@ -229,7 +128,7 @@ async function getCounselling() {
   loader.classList.add("active");
 
   try {
-    const res = await fetch("http://localhost:3000/api/roast", {
+    const res = await fetch("https://drama-management-bureau-1.onrender.com/api/roast", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ name, gender, problem })
