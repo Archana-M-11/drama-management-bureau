@@ -1,121 +1,46 @@
-🎭 Drama Management Bureau – AI Roast-Therapy Web App
-A Gen-Z Style Malayalam AI Counselling System
-📌 Project Description
+🎭 Drama Management Bureau
+A Gen-Z Malayalam AI Roast-Therapy Web App 🤖🔥
 
-Drama Management Bureau is a fun, Gen-Z-themed AI counselling web application that gives users Malayalam roast-therapy + emotional support for their personal problems.
-The system takes the user’s name, gender, and problem, sends it to a Node.js backend connected to Google Gemini, and generates a long, entertaining roast + motivational response.
+Drama Management Bureau is a fun AI-powered Malayalam “roast-therapy” website that gives users savage humor + emotional support.
+Users enter their name, gender, and problem, and the app generates a long, Gen-Z style roast + motivation using Google Gemini AI.
 
-The goal is to create a friendly, funny, engaging platform where users can vent their emotions and receive:
+⭐ Features
 
-🔥 Savage humor
+🔥 AI Roast Therapy (Malayalam + Gen-Z slang)
 
-🎭 Gen-Z Malayalam dialogues
+😭 3–4 long storytelling sections (roast → reality check → motivation)
 
-❤️ Emotional support
+⚡ Animated neon loading button
 
-✨ A motivational ending
+📱 Fully responsive UI (mobile + laptop)
 
-This project is frontend + backend (full stack), with a smooth UI and animations that make the experience even better.
+📋 One-tap Copy Response
 
-⭐ Key Features
-🎯 1. AI-Generated Roast Therapy
+🛜 Node.js + Express backend
 
-Uses Google Gemini Flash model
+🔐 Gemini API key via .env
 
-Generates 3–4 long storytelling sections
+🛠 Tech Stack
 
-Malayalam Gen-Z slang + humor + motivation
+Frontend: HTML, CSS, Bootstrap, JavaScript
+Backend: Node.js, Express.js
+AI: Google Generative AI (Gemini Flash Model)
 
-👤 2. User Inputs
+🚀 How It Works
 
-Name
+User enters name + gender + problem
 
-Gender (to adjust “eda/edi” tone)
+Frontend sends data to /api/roast
 
-Their problem
+Node backend generates a roast using Gemini
 
-🧠 3. Backend with Node.js + Express
+Response is shown with animation + copy button
 
-Secure API endpoint (/api/roast)
+🌐 Deployment
 
-Gemini API key stored in .env
+Frontend: GitHub Pages / Vercel
 
-Cross-origin support for frontend
-
-🎨 4. Responsive Modern UI
-
-Clean Malayalam theme
-
-Attractive background gradient
-
-Mobile-first responsive layout
-
-Smooth fade-in animation for responses
-
-🚀 5. Animated Loading Button
-
-Neon sliding bar animation
-
-Looks like “AI processing”
-
-📋 6. One-Click Copy Button
-
-Copy the entire AI response
-
-Shows a “✔ Copied!” toast
-
-🛠️ Tech Stack
-Frontend
-
-HTML5
-
-CSS3
-
-Bootstrap 5
-
-JavaScript (Vanilla JS)
-
-Backend
-
-Node.js
-
-Express.js
-
-Google Generative AI SDK (Gemini Flash Model)
-
-Other Tools
-
-Git & GitHub
-
-Postman (optional testing)
-
-Environment Variables (.env)
-
-🖥️ How It Works
-
-The user enters:
-
-Name
-
-Gender
-
-Problem
-
-The frontend sends this data → Node.js backend through REST API.
-
-Backend applies a custom prompt:
-
-Roast tone
-
-3–4 long sections
-
-Gen-Z Malayalam
-
-Humor + support
-
-Gemini AI generates a detailed roast therapy.
-
-UI displays text with animation + copy button.
+Backend: Render.com / Railway.app (free)
 
 📌 Use Cases
 
@@ -123,53 +48,10 @@ One-sided love
 
 Heartbreak
 
-Overthinking
-
-Anxiety
+Anxiety & Overthinking
 
 Fake friends
 
-Motivation slump
+Motivation
 
-Academic stress
-
-Random emotional breakdowns
-
-Basically, users receive funny, healing content instead of boring old therapy.
-
-🧑‍🎓 Why This Project Is Special
-
-Combines AI + humor + mental wellness
-
-Fully built with MERN-related concepts (Node backend + modern frontend)
-
-Real-time AI response generation
-
-Custom-designed prompts with personalization
-
-Deployable full-stack application
-
-Perfect for:
-
-B.Tech Mini Project
-
-Final-Year College Project
-
-AI Portfolio
-
-Resume Highlight
-
-Personal Creative Project
-
-🚀 Deployment
-You can deploy this app completely free using:
-
-Frontend:
-👉 GitHub Pages / Vercel (UI only)
-
-Backend (Node):
-👉 Render.com (free server)
-👉 Railway.app (free plan)
-👉 Vercel Serverless Functions (also free)
-
-Once deployed, the app becomes fully online.
+Stress relief
